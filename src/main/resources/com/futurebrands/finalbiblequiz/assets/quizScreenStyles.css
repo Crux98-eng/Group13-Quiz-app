@@ -1,0 +1,24 @@
+#mainbg {
+    -fx-background-color: linear-gradient(to bottom right, #591A06, #A64A2C);
+}
+#title {
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+  #questionLabel{
+  -fx-color=white;
+  -fx-font-size=24pt;
+  }
+  #btn1,btn2,btn3,btn4{
+
+-fx-color:white;
+  }
+
+  #btnContainer{
+
+  -fx-background-center:#BC6345;
+
+  }
+

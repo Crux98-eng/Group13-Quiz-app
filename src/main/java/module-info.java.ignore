@@ -1,0 +1,8 @@
+module com.futurebrands.finalbiblequiz {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+
+    opens com.futurebrands.finalbiblequiz to javafx.fxml;
+    exports com.futurebrands.finalbiblequiz;
+}
