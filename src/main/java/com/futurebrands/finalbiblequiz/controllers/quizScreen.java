@@ -87,9 +87,10 @@ public class quizScreen {
 
             optionsGroup.selectToggle(null); // clear previous selection
             timer.startCountdown(timelapse, dulation,  this::endQuiz); // call handleNext() automatically when time is up
-          if(index >questionList.size()){
-              endQuiz();
-          }
+            System.out.println(index);
+
+        }else {
+            endQuiz();
         }
     }
 
