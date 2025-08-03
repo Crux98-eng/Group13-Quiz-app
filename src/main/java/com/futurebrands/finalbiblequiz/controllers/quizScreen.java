@@ -3,11 +3,16 @@ package com.futurebrands.finalbiblequiz.controllers;
 import com.futurebrands.finalbiblequiz.util.CountdownTimer;
 import com.futurebrands.finalbiblequiz.util.Questions;
 import com.futurebrands.finalbiblequiz.util.QuizLoader;
+import com.futurebrands.finalbiblequiz.util.screenView;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleGroup;
+import javafx.stage.Stage;
 
 import java.util.Collections;
 import java.util.List;
@@ -36,6 +41,7 @@ public class quizScreen {
         loadQuestions();
         timer = new CountdownTimer(); // initialize once
         displayQuestion(currentIndex);
+
     }
 
     private void setupToggleGroup() {
@@ -81,7 +87,9 @@ public class quizScreen {
 
             optionsGroup.selectToggle(null); // clear previous selection
             timer.startCountdown(timelapse, dulation,  this::endQuiz); // call handleNext() automatically when time is up
-
+          if(index >questionList.size()){
+              endQuiz();
+          }
         }
     }
 
@@ -110,12 +118,27 @@ public class quizScreen {
     }
 
     private void endQuiz() {
-        questionLabel.setText("Quiz finished!");
-        btn1.setVisible(false);
-        btn2.setVisible(false);
-        btn3.setVisible(false);
-        btn4.setVisible(false);
-        count.setText("Score: " + score + " / " + questionList.size());
-        progress.setProgress(1.0);
+//        questionLabel.setText("Quiz finished!");
+//        btn1.setVisible(false);
+//        btn2.setVisible(false);
+//        btn3.setVisible(false);
+//        btn4.setVisible(false);
+//        count.setText("Score: " + score + " / " + questionList.size());
+//        progress.setProgress(1.0);
+        try{
+
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/futurebrands/finalbiblequiz/views/resultsScreen.fxml"));
+            Parent root = loader.load(); // Load and get root
+
+            ResultsScreen controller = loader.getController();
+            controller.setScore(score); // Set score on controller
+
+            Stage stage = new Stage();
+            screenView.load2(stage, root);
+        }catch (Exception ex){
+            ex.printStackTrace();
+
+        }
+
     }
 }

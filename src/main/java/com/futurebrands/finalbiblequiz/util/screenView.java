@@ -2,6 +2,7 @@ package com.futurebrands.finalbiblequiz.util;
 
 
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.Region;
 import javafx.stage.Stage;
@@ -60,4 +61,40 @@ public class screenView {
         content.prefWidthProperty().bind(scene.widthProperty());
         content.prefHeightProperty().bind(scene.heightProperty());
     }
+    public static void load2(Stage stage, Parent root) {
+        Scene scene = new Scene(root, INIT_WIDTH, INIT_HEIGHT);
+
+        stage.setMinWidth(MIN_WIDTH);
+        stage.setMinHeight(MIN_HEIGHT);
+        stage.setResizable(true);
+        stage.setMaxHeight(INIT_HEIGHT);
+        stage.setMaxWidth(INIT_WIDTH);
+
+        if (!stage.isShowing()) {
+            stage.initStyle(StageStyle.DECORATED);
+        }
+
+        stage.setScene(scene);
+
+        double widthToUse = (stage.getWidth() > 0 && stage.getWidth() != INIT_WIDTH) ? stage.getWidth() : INIT_WIDTH;
+        double heightToUse = (stage.getHeight() > 0 && stage.getHeight() != INIT_HEIGHT) ? stage.getHeight() : INIT_HEIGHT;
+
+        stage.setWidth(widthToUse);
+        stage.setHeight(heightToUse);
+
+        if (widthToUse == INIT_WIDTH && heightToUse == INIT_HEIGHT) {
+            stage.centerOnScreen();
+        }
+
+        if (!stage.isShowing()) {
+            stage.show();
+        }
+
+        // Bind root layout (Parent) to scene for resizing (only if it's a Region)
+        if (root instanceof Region regionRoot) {
+            regionRoot.prefWidthProperty().bind(scene.widthProperty());
+            regionRoot.prefHeightProperty().bind(scene.heightProperty());
+        }
+    }
+
 }

@@ -1,0 +1,14 @@
+#mainBg{
+  -fx-background-color: linear-gradient(to bottom right, #591A06, #A64A2C);
+  -fx-alignment:center;
+  -fx-color:white;
+}
+#maintextContainer{
+-fx-background-color:#A64A2C;
+-fx-border-radius:15px;
+-fx-alignment:center;
+}
+#scoreContainer{
+-fx-background-color:#FF6D3E;
+-fx-color:white;
+}
