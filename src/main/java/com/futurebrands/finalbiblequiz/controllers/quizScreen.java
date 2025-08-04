@@ -10,6 +10,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
@@ -19,16 +20,26 @@ import java.util.Random;
 
 public class quizScreen {
 
-    @FXML private Label questionLabel;
-    @FXML private RadioButton btn1;
-    @FXML private RadioButton btn2;
-    @FXML private RadioButton btn3;
-    @FXML private RadioButton btn4;
-    @FXML private ProgressBar progress;
-    @FXML private Label timelabel;     // (optional, if used elsewhere)
-    @FXML private Label count;
-    @FXML private Label timelapse;
-    
+    public StackPane mainbg;
+    @FXML
+    private Label questionLabel;
+    @FXML
+    private RadioButton btn1;
+    @FXML
+    private RadioButton btn2;
+    @FXML
+    private RadioButton btn3;
+    @FXML
+    private RadioButton btn4;
+    @FXML
+    private ProgressBar progress;
+    @FXML
+    private Label timelabel;     // (optional, if used elsewhere)
+    @FXML
+    private Label count;
+    @FXML
+    private Label timelapse;
+
     private ToggleGroup optionsGroup;
     private List<Questions> questionList;
     private int currentIndex = 0;
@@ -59,14 +70,13 @@ public class quizScreen {
             System.out.println("Failed to load enough questions.");
             return;
         }
- Random rand = new Random(12);
+        Random rand = new Random(12);
 
         Collections.shuffle(questionList);
         Collections.shuffle(questionList);
 
         questionList = questionList.subList(0, 15);
     }
-
 
 
     private void displayQuestion(int index) {
@@ -102,6 +112,7 @@ public class quizScreen {
 
             optionsGroup.selectToggle(null); // clear previous selection
             timer.startCountdown(timelapse, dulation, this::endQuiz);
+
             //System.out.println(index);
 
         } else {
@@ -120,11 +131,13 @@ public class quizScreen {
 
             // Loop through all radio buttons to find and style the correct one
             for (Toggle toggle : optionsGroup.getToggles()) {
-                RadioButton btn = (RadioButton)toggle;
+                RadioButton btn = (RadioButton) toggle;
                 String key = btn.getText().substring(0, 1); // "A", "B", etc.
 
                 if (key.equalsIgnoreCase(correctAnswer)) {
-                    btn.setStyle("-fx-text-fill: green;"); // Correct answer
+                    btn.setStyle("-fx-text-fill: green;");
+                    // Correct answer
+                    score++;
                 } else if (key.equalsIgnoreCase(selectedKey)) {
                     btn.setStyle("-fx-text-fill: red;");   // Wrong answer
                 } else {
@@ -147,23 +160,26 @@ public class quizScreen {
     }
 
 
-
     private void endQuiz() {
-
-        try{
-
+        try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/futurebrands/finalbiblequiz/views/resultsScreen.fxml"));
-            Parent root = loader.load(); // Load and get root
 
+            // Load the root and get the controller
+            Parent root = loader.load();
             ResultsScreen controller = loader.getController();
-            controller.setScore(score); // Set score on controller
 
-            Stage stage = new Stage();
+            // Set score BEFORE showing the stage to ensure UI is ready
+            System.out.println(score);
+            controller.setScore(score);
+
+            // Use a new stage to display the result screen
+           // Stage stage = new Stage();
+            Stage stage = (Stage) mainbg.getScene().getWindow();
+
             screenView.load2(stage, root);
-        }catch (Exception ex){
+
+        } catch (Exception ex) {
             ex.printStackTrace();
-
         }
-
     }
 }
