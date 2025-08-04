@@ -66,7 +66,7 @@ public class screenView {
 
         stage.setMinWidth(MIN_WIDTH);
         stage.setMinHeight(MIN_HEIGHT);
-        stage.setResizable(true);
+        stage.setResizable(false);
         stage.setMaxHeight(INIT_HEIGHT);
         stage.setMaxWidth(INIT_WIDTH);
 

@@ -4,18 +4,18 @@ import com.futurebrands.finalbiblequiz.util.CountdownTimer;
 import com.futurebrands.finalbiblequiz.util.Questions;
 import com.futurebrands.finalbiblequiz.util.QuizLoader;
 import com.futurebrands.finalbiblequiz.util.screenView;
+import javafx.animation.PauseTransition;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 public class quizScreen {
 
@@ -59,44 +59,58 @@ public class quizScreen {
             System.out.println("Failed to load enough questions.");
             return;
         }
+ Random rand = new Random(12);
 
         Collections.shuffle(questionList);
-        questionList = questionList.subList(0, 5);
+        Collections.shuffle(questionList);
+
+        questionList = questionList.subList(0, 15);
     }
+
+
 
     private void displayQuestion(int index) {
         if (timer != null) {
             timer.stop(); // stop any previous timer
         }
 
-//        timer.startCountdown(timelapse,dulation,()->{
-//
-//            endQuiz();
-//        });
         if (index < questionList.size()) {
             Questions q = questionList.get(index);
+
             questionLabel.setText(q.question);
             btn1.setText("A. " + q.options.get("A"));
             btn2.setText("B. " + q.options.get("B"));
             btn3.setText("C. " + q.options.get("C"));
             btn4.setText("D. " + q.options.get("D"));
-            count.setText((index + 1) + " / " + questionList.size());
 
+            // Set user data to help identify which is correct later
+            btn1.setUserData("A");
+            btn2.setUserData("B");
+            btn3.setUserData("C");
+            btn4.setUserData("D");
+
+            // Reset styles and re-enable
+            for (Toggle toggle : optionsGroup.getToggles()) {
+                RadioButton rb = (RadioButton) toggle;
+                rb.setStyle("");
+                rb.setDisable(false);
+            }
+
+            count.setText((index + 1) + " / " + questionList.size());
             double progressValue = (double) index / questionList.size();
             progress.setProgress(progressValue);
 
             optionsGroup.selectToggle(null); // clear previous selection
-            timer.startCountdown(timelapse, dulation,  this::endQuiz); // call handleNext() automatically when time is up
-            System.out.println(index);
+            timer.startCountdown(timelapse, dulation, this::endQuiz);
+            //System.out.println(index);
 
-        }else {
+        } else {
             endQuiz();
         }
     }
 
     @FXML
     private void handleNext() {
-
         if (optionsGroup.getSelectedToggle() != null) {
             RadioButton selected = (RadioButton) optionsGroup.getSelectedToggle();
             String selectedText = selected.getText();
@@ -104,28 +118,38 @@ public class quizScreen {
 
             String correctAnswer = questionList.get(currentIndex).answer;
 
-            if (selectedKey.equalsIgnoreCase(correctAnswer)) {
-                score++;
-                System.out.println("Correct!");
-            } else {
-                System.out.println("Wrong!");
+            // Loop through all radio buttons to find and style the correct one
+            for (Toggle toggle : optionsGroup.getToggles()) {
+                RadioButton btn = (RadioButton)toggle;
+                String key = btn.getText().substring(0, 1); // "A", "B", etc.
+
+                if (key.equalsIgnoreCase(correctAnswer)) {
+                    btn.setStyle("-fx-text-fill: green;"); // Correct answer
+                } else if (key.equalsIgnoreCase(selectedKey)) {
+                    btn.setStyle("-fx-text-fill: red;");   // Wrong answer
+                } else {
+                    btn.setStyle(""); // Reset others if necessary
+                }
             }
 
-            currentIndex++;
-            displayQuestion(currentIndex);
+            // Optional: Add a delay before switching to the next question
+            PauseTransition pause = new PauseTransition(Duration.seconds(1.5));
+            pause.setOnFinished(e -> {
+                score += selectedKey.equalsIgnoreCase(correctAnswer) ? 1 : 0;
+                currentIndex++;
+                displayQuestion(currentIndex);
+            });
+            pause.play();
+
         } else {
             System.out.println("Please select an answer.");
         }
     }
 
+
+
     private void endQuiz() {
-//        questionLabel.setText("Quiz finished!");
-//        btn1.setVisible(false);
-//        btn2.setVisible(false);
-//        btn3.setVisible(false);
-//        btn4.setVisible(false);
-//        count.setText("Score: " + score + " / " + questionList.size());
-//        progress.setProgress(1.0);
+
         try{
 
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/futurebrands/finalbiblequiz/views/resultsScreen.fxml"));

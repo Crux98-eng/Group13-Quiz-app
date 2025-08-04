@@ -16,9 +16,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<StackPane fx:id="mainbg" prefHeight="495.0" prefWidth="437.0" stylesheets="@/com/futurebrands/finalbiblequiz/assets/quizScreenStyles.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.futurebrands.finalbiblequiz.controllers.quizScreen">
+<StackPane fx:id="mainbg" prefHeight="517.0" prefWidth="437.0" stylesheets="@/com/futurebrands/finalbiblequiz/assets/quizScreenStyles.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.futurebrands.finalbiblequiz.controllers.quizScreen">
 
-   <VBox alignment="TOP_CENTER" depthTest="DISABLE" spacing="15.0">
+   <VBox alignment="TOP_CENTER" depthTest="DISABLE" prefHeight="517.0" prefWidth="437.0" spacing="15.0">
       <padding>
          <Insets bottom="10" left="10" right="10" top="10" />
       </padding>
@@ -56,14 +56,14 @@
       <Region prefHeight="41.0" prefWidth="417.0" />
 
       <!-- Question Area -->
-      <Label fx:id="questionLabel" alignment="CENTER" prefHeight="89.0" prefWidth="380.0" style="-fx-background-color: transparent; -fx-text-fill: black;" text="WHO WAS THE KING OF ISRAEL?" textFill="WHITE" wrapText="true">
+      <Label fx:id="questionLabel" alignment="CENTER" prefHeight="89.0" prefWidth="380.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="WHO WAS THE KING OF ISRAEL?" textAlignment="CENTER" textFill="WHITE" wrapText="true">
          <font>
-            <Font name="Montserrat ExtraBold" size="16.0" />
+            <Font name="Montserrat ExtraBold" size="18.0" />
          </font>
       </Label>
 
       <!-- Options Area -->
-      <GridPane fx:id="btnContainer" alignment="CENTER" hgap="20" vgap="15">
+      <GridPane fx:id="btnContainer" alignment="CENTER" hgap="20" prefHeight="47.0" prefWidth="335.0" vgap="15">
          <columnConstraints>
             <ColumnConstraints percentWidth="50" />
             <ColumnConstraints percentWidth="50" />
@@ -71,30 +71,45 @@
 
          <RadioButton fx:id="btn1" style="-fx-text-fill: black;" text="A. DAVID" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="0">
             <font>
-               <Font name="Montserrat SemiBold" size="12.0" />
+               <Font name="Montserrat SemiBold" size="16.0" />
             </font>
+            <opaqueInsets>
+               <Insets left="20.0" />
+            </opaqueInsets>
          </RadioButton>
          <RadioButton fx:id="btn2" style="-fx-text-fill: black;" text="B. SAUL" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="0">
             <font>
-               <Font name="Montserrat SemiBold" size="12.0" />
+               <Font name="Montserrat SemiBold" size="16.0" />
             </font>
+            <opaqueInsets>
+               <Insets left="20.0" />
+            </opaqueInsets>
          </RadioButton>
          <RadioButton fx:id="btn3" style="-fx-text-fill: black;" text="C. SAMUEL" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="1">
             <font>
-               <Font name="Montserrat SemiBold" size="12.0" />
+               <Font name="Montserrat SemiBold" size="16.0" />
             </font>
+            <opaqueInsets>
+               <Insets left="20.0" />
+            </opaqueInsets>
          </RadioButton>
          <RadioButton fx:id="btn4" style="-fx-text-fill: black;" text="D. SOLOMON" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
             <font>
-               <Font name="Montserrat SemiBold" size="12.0" />
+               <Font name="Montserrat SemiBold" size="16.0" />
             </font>
+            <opaqueInsets>
+               <Insets left="20.0" />
+            </opaqueInsets>
          </RadioButton>
          <rowConstraints>
             <RowConstraints />
             <RowConstraints />
          </rowConstraints>
+         <padding>
+            <Insets left="50.0" />
+         </padding>
       </GridPane>
-      <Region prefHeight="71.0" prefWidth="417.0" />
+      <Region prefHeight="86.0" prefWidth="417.0" />
 
       <!-- Submit Button -->
       <Button onAction="#handleNext" prefWidth="200.0" style="-fx-background-color: green; -fx-text-fill: white;" text="SUBMIT">
