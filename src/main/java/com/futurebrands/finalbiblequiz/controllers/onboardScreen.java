@@ -9,7 +9,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
 import java.io.IOException;
 
 public class onboardScreen {
@@ -23,11 +22,12 @@ public class onboardScreen {
 
 
     @FXML
-    public void quizScreen() {
+    public void quizScreen()  throws Exception{
       //  System.out.println("it has reached here");
         btn1.setOnAction(e -> {
             try {
-                nextPage();
+               nextPage();
+
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
@@ -37,6 +37,13 @@ public class onboardScreen {
 
     public void initialize() {
         {
+            btn1.setOnAction(e -> {
+                try {
+                    nextPage();
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+            });
 
 
         }

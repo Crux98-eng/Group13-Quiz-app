@@ -14,6 +14,8 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
@@ -44,7 +46,7 @@ public class quizScreen {
     private List<Questions> questionList;
     private int currentIndex = 0;
     private int score = 0;
-    private int dulation = 20;
+    private int dulation = 30;
     private CountdownTimer timer;
 
     public void initialize() {
@@ -64,18 +66,23 @@ public class quizScreen {
     }
 
     private void loadQuestions() {
-        questionList = QuizLoader.loadQuestions("src/main/resources/com/futurebrands/finalbiblequiz/assets/data/bibleQuestions.json");
+        //Path path = Paths.get("src/main/resources/com/futurebrands/finalbiblequiz/assets/data/bibleQuestions.json");
+       // path.toUri();
+      //  System.out.println("coming from path===>"+path.toUri());
+
+
+        questionList = QuizLoader.loadQuestions("/com/futurebrands/finalbiblequiz/assets/data/bibleQuestions.json");
 
         if (questionList == null || questionList.size() < 5) {
             System.out.println("Failed to load enough questions.");
             return;
         }
-        Random rand = new Random(12);
+
 
         Collections.shuffle(questionList);
-        Collections.shuffle(questionList);
 
-        questionList = questionList.subList(0, 15);
+
+        questionList = questionList.subList(100, 115);
     }
 
 
@@ -136,8 +143,7 @@ public class quizScreen {
 
                 if (key.equalsIgnoreCase(correctAnswer)) {
                     btn.setStyle("-fx-text-fill: green;");
-                    // Correct answer
-                    score++;
+
                 } else if (key.equalsIgnoreCase(selectedKey)) {
                     btn.setStyle("-fx-text-fill: red;");   // Wrong answer
                 } else {
@@ -155,7 +161,7 @@ public class quizScreen {
             pause.play();
 
         } else {
-            System.out.println("Please select an answer.");
+           // System.out.println("Please select an answer.");
         }
     }
 

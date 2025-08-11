@@ -31,7 +31,7 @@
       </Label>
 
       <!-- Top Bar -->
-      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="399.0" spacing="20.0" style="-fx-background-color: #BC6345; -fx-padding: 40px,;">
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="399.0" spacing="20.0" style="-fx-background-color: #BC6345; -fx-padding: 40px;">
          <padding>
             <Insets bottom="10" left="10" right="10" top="10" />
          </padding>
@@ -47,7 +47,7 @@
                <Image url="@../assets/images/timer-icon.png" />
             </image>
          </ImageView>
-         <Label fx:id="timelapse" style="-fx-text-fill: white;" text="00" textFill="#009cff">
+         <Label fx:id="timelapse" style="-fx-text-fill: white;" text="00">
             <font>
                <Font name="Montserrat ExtraBold" size="14.0" />
             </font>

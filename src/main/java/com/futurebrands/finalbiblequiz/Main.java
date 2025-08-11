@@ -15,10 +15,12 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
       this.primaryStage = stage;
-//
-//        primaryStage.setTitle("Bible Quiz");
-//        primaryStage.show();
-        screenView.load(primaryStage,"/com/futurebrands/finalbiblequiz/views/onboardScreen.fxml");
+
+      // primaryStage.setTitle("Bible Quiz");
+    // primaryStage.show();
+        //screenView.load(primaryStage,"/com/futurebrands/finalbiblequiz/views/home.fxml");
+         screenView.load(primaryStage,"/com/futurebrands/finalbiblequiz/views/onboardScreen.fxml");
+
 
     }
 

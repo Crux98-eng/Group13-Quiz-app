@@ -1,139 +1,106 @@
 [
   {
     "id": 1,
-    "question": "Who betrayed Jesus?",
+    "question": "Who was the first man created by God?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Abraham",
+      "B": "Adam",
+      "C": "Moses",
+      "D": "Noah"
     },
     "answer": "B"
   },
   {
     "id": 2,
-    "question": "Who was thrown into the lion's den?",
+    "question": "Who built the ark to survive the great flood?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Enoch",
+      "B": "Methuselah",
+      "C": "Noah",
+      "D": "Shem"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 3,
-    "question": "Who killed Goliath?",
+    "question": "Who led the Israelites out of slavery in Egypt?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Joshua",
+      "B": "Aaron",
+      "C": "Moses",
+      "D": "Elijah"
     },
     "answer": "C"
   },
   {
     "id": 4,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Who killed the giant Goliath with a sling and a stone?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Samson",
+      "B": "Saul",
+      "C": "David",
+      "D": "Jonathan"
     },
     "answer": "C"
   },
   {
     "id": 5,
-    "question": "Who killed Goliath?",
+    "question": "Who was thrown into a lion's den but was miraculously saved?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Jeremiah",
+      "B": "Daniel",
+      "C": "Elijah",
+      "D": "Paul"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 6,
-    "question": "What did God create on the first day?",
+    "question": "What is the first book of the Bible?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Exodus",
+      "B": "Genesis",
+      "C": "Leviticus",
+      "D": "Numbers"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 7,
-    "question": "What did God create on the first day?",
-    "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 8,
     "question": "Where was Jesus born?",
     "options": {
       "A": "Nazareth",
       "B": "Jerusalem",
       "C": "Bethlehem",
       "D": "Galilee"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 8,
+    "question": "How many disciples did Jesus have?",
+    "options": {
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
     },
     "answer": "C"
   },
   {
     "id": 9,
-    "question": "Who built the ark?",
+    "question": "Who betrayed Jesus for 30 pieces of silver?",
     "options": {
-      "A": "Moses",
-      "B": "David",
-      "C": "Noah",
-      "D": "Solomon"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 10,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Peter",
+      "B": "Judas Iscariot",
+      "C": "Thomas",
+      "D": "John"
     },
     "answer": "B"
   },
   {
-    "id": 11,
-    "question": "Who led the Israelites out of Egypt?",
-    "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 12,
-    "question": "Where was Jesus born?",
-    "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 13,
-    "question": "What did God create on the first day?",
+    "id": 10,
+    "question": "What did God create on the first day, according to Genesis?",
     "options": {
       "A": "Light",
       "B": "Sky",
@@ -143,734 +110,789 @@
     "answer": "A"
   },
   {
-    "id": 14,
-    "question": "Who betrayed Jesus?",
+    "id": 11,
+    "question": "Which of the following was NOT one of the 10 Plagues of Egypt?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Boils",
+      "B": "Earthquakes",
+      "C": "Frogs",
+      "D": "Darkness"
     },
     "answer": "B"
   },
   {
-    "id": 15,
-    "question": "What is the first book of the Bible?",
+    "id": 12,
+    "question": "What sea did Moses part to allow the Israelites to cross?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Dead Sea",
+      "B": "Red Sea",
+      "C": "Mediterranean Sea",
+      "D": "Sea of Galilee"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 13,
+    "question": "What were the names of Adam and Eve's first two sons?",
+    "options": {
+      "A": "Abraham and Isaac",
+      "B": "Jacob and Esau",
+      "C": "Cain and Abel",
+      "D": "Shem and Ham"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "question": "What was the name of the garden where Adam and Eve lived?",
+    "options": {
+      "A": "Garden of Eden",
+      "B": "Garden of Gethsemane",
+      "C": "The Promised Land",
+      "D": "Babylon"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 15,
+    "question": "What did God promise Abraham that his descendants would be as numerous as?",
+    "options": {
+      "A": "Grains of sand",
+      "B": "Stars in the sky",
+      "C": "Leaves on a tree",
+      "D": "Fish in the sea"
     },
     "answer": "B"
   },
   {
     "id": 16,
-    "question": "Where was Jesus born?",
+    "question": "Who was the mother of Jesus?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Mary Magdalene",
+      "B": "Elizabeth",
+      "C": "Martha",
+      "D": "Mary"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": 17,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Which disciple denied Jesus three times?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Judas",
+      "B": "Peter",
+      "C": "Thomas",
+      "D": "James"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "What animal spoke to Balaam in the Old Testament?",
+    "options": {
+      "A": "A sheep",
+      "B": "A horse",
+      "C": "A donkey",
+      "D": "A camel"
     },
     "answer": "C"
   },
   {
-    "id": 18,
-    "question": "Who betrayed Jesus?",
-    "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
-    },
-    "answer": "B"
-  },
-  {
     "id": 19,
-    "question": "Who was thrown into the lion's den?",
+    "question": "What was the name of the angel who appeared to Mary?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Michael",
+      "B": "Raphael",
+      "C": "Gabriel",
+      "D": "Uriel"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 20,
-    "question": "What is the first book of the Bible?",
+    "question": "Which book of the Bible describes the end times?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Isaiah",
+      "B": "Ezekiel",
+      "C": "Revelation",
+      "D": "Daniel"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 21,
-    "question": "Who betrayed Jesus?",
+    "question": "What food did God provide to the Israelites in the desert?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Bread and fish",
+      "B": "Manna and quail",
+      "C": "Water from a rock",
+      "D": "Pomegranates"
     },
     "answer": "B"
   },
   {
     "id": 22,
-    "question": "Who betrayed Jesus?",
+    "question": "What did Jesus turn water into at the wedding in Cana?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 23,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 24,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 25,
-    "question": "What did God create on the first day?",
-    "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Wine",
+      "B": "Juice",
+      "C": "Milk",
+      "D": "Oil"
     },
     "answer": "A"
   },
   {
-    "id": 26,
-    "question": "What is the first book of the Bible?",
+    "id": 23,
+    "question": "Who was the first king of Israel?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "David",
+      "B": "Solomon",
+      "C": "Saul",
+      "D": "Hezekiah"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "question": "Which of Jesus' disciples was a tax collector?",
+    "options": {
+      "A": "Peter",
+      "B": "John",
+      "C": "Matthew",
+      "D": "Andrew"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 25,
+    "question": "How many days and nights did it rain during the great flood?",
+    "options": {
+      "A": "7 days and 7 nights",
+      "B": "20 days and 20 nights",
+      "C": "40 days and 40 nights",
+      "D": "50 days and 50 nights"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 26,
+    "question": "Who was swallowed by a great fish?",
+    "options": {
+      "A": "Noah",
+      "B": "Jonah",
+      "C": "Elisha",
+      "D": "Samuel"
     },
     "answer": "B"
   },
   {
     "id": 27,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the man who sold all his possessions and laid the money at the apostles' feet, but lied about it?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Barnabas",
+      "B": "Ananias",
+      "C": "Stephen",
+      "D": "Philip"
     },
     "answer": "B"
   },
   {
     "id": 28,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of Jesus' earthly father?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
+      "A": "Joseph",
+      "B": "Zechariah",
+      "C": "David",
       "D": "John"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 29,
-    "question": "What is the first book of the Bible?",
+    "question": "Which book of the Bible contains the story of the fiery furnace?",
     "options": {
       "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "B": "Daniel",
+      "C": "Isaiah",
+      "D": "Jeremiah"
     },
     "answer": "B"
   },
   {
     "id": 30,
-    "question": "What is the first book of the Bible?",
+    "question": "How many books are in the New Testament?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "39",
+      "B": "27",
+      "C": "66",
+      "D": "12"
     },
     "answer": "B"
   },
   {
     "id": 31,
-    "question": "Who was thrown into the lion's den?",
+    "question": "Which book of the Bible contains the story of Samson and Delilah?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Judges",
+      "B": "Ruth",
+      "C": "Joshua",
+      "D": "1 Samuel"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 32,
-    "question": "What is the first book of the Bible?",
+    "question": "Who was the youngest son of Jacob?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Reuben",
+      "B": "Joseph",
+      "C": "Benjamin",
+      "D": "Judah"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 33,
-    "question": "Who was thrown into the lion's den?",
+    "question": "Which of the following was NOT a son of Noah?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Shem",
+      "B": "Ham",
+      "C": "Japheth",
+      "D": "Cain"
     },
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": 34,
-    "question": "What is the first book of the Bible?",
+    "question": "What was the name of the woman who killed Sisera with a tent peg?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Deborah",
+      "B": "Jael",
+      "C": "Esther",
+      "D": "Abigail"
     },
     "answer": "B"
   },
   {
     "id": 35,
-    "question": "Who was thrown into the lion's den?",
+    "question": "Who was the mother of John the Baptist?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Mary",
+      "B": "Elizabeth",
+      "C": "Hannah",
+      "D": "Rachel"
     },
     "answer": "B"
   },
   {
     "id": 36,
-    "question": "Where was Jesus born?",
+    "question": "Who was the wife of Abraham?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Hagar",
+      "B": "Rebekah",
+      "C": "Sarah",
+      "D": "Leah"
     },
     "answer": "C"
   },
   {
     "id": 37,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of Isaac's wife?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Sarah",
+      "B": "Leah",
+      "C": "Rachel",
+      "D": "Rebekah"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": 38,
-    "question": "What did God create on the first day?",
+    "question": "Which prophet was taken to heaven in a whirlwind?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Elijah",
+      "B": "Elisha",
+      "C": "Isaiah",
+      "D": "Jeremiah"
     },
     "answer": "A"
   },
   {
     "id": 39,
-    "question": "How many disciples did Jesus have?",
+    "question": "Who was the Roman governor who presided over Jesus' trial?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Herod",
+      "B": "Caesar",
+      "C": "Pontius Pilate",
+      "D": "Felix"
     },
     "answer": "C"
   },
   {
     "id": 40,
-    "question": "Where was Jesus born?",
+    "question": "What did Jesus say was the greatest commandment?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Honor your father and mother",
+      "B": "Do not murder",
+      "C": "Love the Lord your God with all your heart",
+      "D": "Remember the Sabbath day"
     },
     "answer": "C"
   },
   {
     "id": 41,
-    "question": "Where was Jesus born?",
+    "question": "Which disciple was a tax collector?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Peter",
+      "B": "James",
+      "C": "John",
+      "D": "Matthew"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": 42,
-    "question": "Who killed Goliath?",
+    "question": "What was the name of the first woman created by God?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Sarah",
+      "B": "Eve",
+      "C": "Mary",
+      "D": "Leah"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 43,
-    "question": "Who killed Goliath?",
+    "question": "Who was the father of John the Baptist?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Joseph",
+      "B": "Zechariah",
+      "C": "Abraham",
+      "D": "Canaan"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 44,
+    "question": "What did Jesus feed the 5,000 with?",
+    "options": {
+      "A": "Manna and quail",
+      "B": "Fish and bread",
+      "C": "Five loaves and two fish",
+      "D": "Seven loaves and a few fish"
     },
     "answer": "C"
   },
   {
-    "id": 44,
-    "question": "Who was thrown into the lion's den?",
-    "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
-    },
-    "answer": "B"
-  },
-  {
     "id": 45,
-    "question": "Who was the first man created by God?",
+    "question": "What was the name of the mountain where Moses received the Ten Commandments?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
+      "A": "Mount Zion",
+      "B": "Mount of Olives",
+      "C": "Mount Sinai",
+      "D": "Mount Carmel"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 46,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the first plague God sent upon Egypt?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Flies",
+      "B": "Locusts",
+      "C": "Water turned to blood",
+      "D": "Death of the firstborn"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 47,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "What was the name of the king of Israel who built the first temple in Jerusalem?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "David",
+      "B": "Saul",
+      "C": "Solomon",
+      "D": "Hezekiah"
     },
     "answer": "C"
   },
   {
     "id": 48,
-    "question": "How many disciples did Jesus have?",
+    "question": "Which prophet was a shepherd before being called by God?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Amos",
+      "B": "Isaiah",
+      "C": "Ezekiel",
+      "D": "Hosea"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "question": "What did Esau sell to Jacob for a pot of lentil stew?",
+    "options": {
+      "A": "His livestock",
+      "B": "His blessing",
+      "C": "His birthright",
+      "D": "His tent"
     },
     "answer": "C"
   },
   {
-    "id": 49,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
-    },
-    "answer": "B"
-  },
-  {
     "id": 50,
-    "question": "Who was thrown into the lion's den?",
+    "question": "What was the name of the city with walls that fell after the Israelites marched around it?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Jericho",
+      "B": "Babylon",
+      "C": "Jerusalem",
+      "D": "Samaria"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 51,
-    "question": "What is the first book of the Bible?",
+    "question": "What was the name of the king of Babylon who saw the writing on the wall?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Nebuchadnezzar",
+      "B": "Belshazzar",
+      "C": "Cyrus",
+      "D": "Darius"
     },
     "answer": "B"
   },
   {
     "id": 52,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "What was the name of the woman who hosted the spies in Jericho?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Ruth",
+      "B": "Esther",
+      "C": "Jezebel",
+      "D": "Rahab"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": 53,
-    "question": "What did God create on the first day?",
+    "question": "What was the name of the garden where Jesus prayed before his crucifixion?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 54,
-    "question": "Who betrayed Jesus?",
-    "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Garden of Eden",
+      "B": "Garden of Gethsemane",
+      "C": "Mount of Olives",
+      "D": "Garden of Bethany"
     },
     "answer": "B"
   },
   {
-    "id": 55,
-    "question": "Where was Jesus born?",
+    "id": 54,
+    "question": "Who was the Roman centurion who's servant Jesus healed without being present?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Cornelius",
+      "B": "Longinus",
+      "C": "Caiaphas",
+      "D": "Pilate"
     },
-    "answer": "C"
+    "answer": "A"
+  },
+  {
+    "id": 55,
+    "question": "What was the name of the prophet who anointed David as king?",
+    "options": {
+      "A": "Samuel",
+      "B": "Nathan",
+      "C": "Elijah",
+      "D": "Isaiah"
+    },
+    "answer": "A"
   },
   {
     "id": 56,
-    "question": "How many disciples did Jesus have?",
+    "question": "Which of Jesus' parables tells the story of a man who left home and squandered his inheritance?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "The Good Samaritan",
+      "B": "The Prodigal Son",
+      "C": "The Sower",
+      "D": "The Lost Sheep"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 57,
-    "question": "What is the first book of the Bible?",
+    "question": "How many plagues did God send upon Egypt?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "7",
+      "B": "10",
+      "C": "12",
+      "D": "40"
     },
     "answer": "B"
   },
   {
     "id": 58,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of the high priest who questioned Jesus before His crucifixion?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Annas",
+      "B": "Caiaphas",
+      "C": "Pharisee",
+      "D": "Herod"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 59,
-    "question": "Who killed Goliath?",
+    "question": "Who was the prophetess who helped judge Israel?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Miriam",
+      "B": "Hannah",
+      "C": "Deborah",
+      "D": "Huldah"
     },
     "answer": "C"
   },
   {
     "id": 60,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 61,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the disciple who doubted Jesus' resurrection until he saw Him?",
     "options": {
       "A": "Peter",
       "B": "Judas",
       "C": "Thomas",
       "D": "John"
     },
-    "answer": "B"
+    "answer": "C"
+  },
+  {
+    "id": 61,
+    "question": "What was the last book of the Old Testament?",
+    "options": {
+      "A": "Malachi",
+      "B": "Zechariah",
+      "C": "Haggai",
+      "D": "Nehemiah"
+    },
+    "answer": "A"
   },
   {
     "id": 62,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of the woman who became queen of Persia and saved her people?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Esther",
+      "B": "Ruth",
+      "C": "Jael",
+      "D": "Deborah"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 63,
+    "question": "How many books are in the Old Testament?",
+    "options": {
+      "A": "39",
+      "B": "27",
+      "C": "66",
+      "D": "12"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 64,
+    "question": "Who was the king of Judah who was healed of his sickness and had his life extended by 15 years?",
+    "options": {
+      "A": "David",
+      "B": "Solomon",
+      "C": "Hezekiah",
+      "D": "Josiah"
     },
     "answer": "C"
   },
   {
-    "id": 63,
-    "question": "Who was the first man created by God?",
-    "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 64,
-    "question": "Who was the first man created by God?",
-    "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
-    },
-    "answer": "B"
-  },
-  {
     "id": 65,
-    "question": "Who built the ark?",
+    "question": "Which book of the Bible contains the story of a talking donkey?",
     "options": {
-      "A": "Moses",
-      "B": "David",
-      "C": "Noah",
-      "D": "Solomon"
+      "A": "Genesis",
+      "B": "Exodus",
+      "C": "Numbers",
+      "D": "Joshua"
     },
     "answer": "C"
   },
   {
     "id": 66,
-    "question": "Who was thrown into the lion's den?",
+    "question": "Who was the man who was healed of blindness by Jesus after washing in the Pool of Siloam?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Lazarus",
+      "B": "Bartimaeus",
+      "C": "The man born blind",
+      "D": "Nicodemus"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 67,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Who was the first Christian martyr?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Paul",
+      "B": "Stephen",
+      "C": "Peter",
+      "D": "James"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 68,
-    "question": "Where was Jesus born?",
+    "question": "What was the name of the city where the disciples were first called Christians?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Jerusalem",
+      "B": "Antioch",
+      "C": "Rome",
+      "D": "Corinth"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 69,
-    "question": "Where was Jesus born?",
+    "question": "What was the name of the man who offered to buy the power of the Holy Spirit from the apostles?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Simon the Sorcerer",
+      "B": "Ananias",
+      "C": "Felix",
+      "D": "Nicodemus"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 70,
+    "question": "What was the name of the woman who anointed Jesus' feet with expensive perfume?",
+    "options": {
+      "A": "Mary Magdalene",
+      "B": "Martha",
+      "C": "Mary of Bethany",
+      "D": "Salome"
     },
     "answer": "C"
   },
   {
-    "id": 70,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
-    },
-    "answer": "B"
-  },
-  {
     "id": 71,
-    "question": "Who was the first man created by God?",
+    "question": "What did Jesus say to the paralyzed man he healed?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
+      "A": "Pick up your bed and walk",
+      "B": "Your sins are forgiven",
+      "C": "Follow me",
+      "D": "Be healed"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 72,
-    "question": "Where was Jesus born?",
+    "question": "Who was the prophet who challenged the prophets of Baal on Mount Carmel?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Elisha",
+      "B": "Isaiah",
+      "C": "Elijah",
+      "D": "Jeremiah"
     },
     "answer": "C"
   },
   {
     "id": 73,
-    "question": "What is the first book of the Bible?",
+    "question": "What was the name of the place where Jesus was crucified?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Mount Sinai",
+      "B": "Calvary/Golgotha",
+      "C": "Mount of Olives",
+      "D": "Jerusalem"
     },
     "answer": "B"
   },
   {
     "id": 74,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of the Roman centurion who declared, 'Surely this man was the Son of God!' after the crucifixion?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Cornelius",
+      "B": "Claudius",
+      "C": "Longinus",
+      "D": "Caiaphas"
     },
     "answer": "C"
   },
   {
     "id": 75,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "What was the name of the person who buried Jesus' body in his own new tomb?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Nicodemus",
+      "B": "Joseph of Arimathea",
+      "C": "Simon of Cyrene",
+      "D": "Lazarus"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 76,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Which book of the Bible contains the 'Sermon on the Mount'?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Mark",
+      "B": "Luke",
+      "C": "Matthew",
+      "D": "John"
     },
     "answer": "C"
   },
   {
     "id": 77,
-    "question": "Where was Jesus born?",
+    "question": "What was the name of the brother of Moses?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Joshua",
+      "B": "Aaron",
+      "C": "Caleb",
+      "D": "Miriam"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 78,
+    "question": "What did John the Baptist eat in the wilderness?",
+    "options": {
+      "A": "Fish and bread",
+      "B": "Lentils and grain",
+      "C": "Locusts and wild honey",
+      "D": "Dates and water"
     },
     "answer": "C"
   },
   {
-    "id": 78,
-    "question": "What did God create on the first day?",
-    "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
-    },
-    "answer": "A"
-  },
-  {
     "id": 79,
-    "question": "What did God create on the first day?",
+    "question": "What was the first sin committed by Adam and Eve?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Stealing fruit",
+      "B": "Lying to God",
+      "C": "Disobedience",
+      "D": "Hiding from God"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 80,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of the wife of Isaac?",
+    "options": {
+      "A": "Sarah",
+      "B": "Rebekah",
+      "C": "Rachel",
+      "D": "Leah"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 81,
+    "question": "Who was the son of Abraham and Sarah?",
+    "options": {
+      "A": "Ishmael",
+      "B": "Jacob",
+      "C": "Isaac",
+      "D": "Joseph"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 82,
+    "question": "How many sons did Jacob have?",
     "options": {
       "A": "10",
       "B": "11",
@@ -880,1323 +902,1301 @@
     "answer": "C"
   },
   {
-    "id": 81,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 82,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
-    },
-    "answer": "B"
-  },
-  {
     "id": 83,
-    "question": "Who was the first man created by God?",
+    "question": "Which of Jacob's sons was sold into slavery by his brothers?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
+      "A": "Reuben",
+      "B": "Judah",
+      "C": "Joseph",
+      "D": "Benjamin"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 84,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the city from which Paul was from?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Damascus",
+      "B": "Tarsus",
+      "C": "Antioch",
+      "D": "Jerusalem"
     },
     "answer": "B"
   },
   {
     "id": 85,
-    "question": "Who was thrown into the lion's den?",
+    "question": "Which book of the Bible contains the story of Joseph and his coat of many colors?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Exodus",
+      "B": "Genesis",
+      "C": "Numbers",
+      "D": "Leviticus"
     },
     "answer": "B"
   },
   {
     "id": 86,
-    "question": "What is the first book of the Bible?",
+    "question": "What was the name of the baby boy that Moses' sister saved from the Nile River?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Aaron",
+      "B": "Moses",
+      "C": "Joseph",
+      "D": "Joshua"
     },
     "answer": "B"
   },
   {
     "id": 87,
-    "question": "Who was thrown into the lion's den?",
+    "question": "How many plagues did God send upon Egypt before Pharaoh let the Israelites go?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "7",
+      "B": "10",
+      "C": "12",
+      "D": "40"
     },
     "answer": "B"
   },
   {
     "id": 88,
-    "question": "Who was thrown into the lion's den?",
+    "question": "Who was the man who saw a burning bush that was not consumed by fire?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
+      "A": "Abraham",
+      "B": "Moses",
       "C": "Elijah",
-      "D": "Paul"
+      "D": "Joshua"
     },
     "answer": "B"
   },
   {
     "id": 89,
-    "question": "What did God create on the first day?",
+    "question": "What was the name of the prostitute who helped the Israelite spies in Jericho?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Ruth",
+      "B": "Jezebel",
+      "C": "Rahab",
+      "D": "Esther"
     },
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 90,
-    "question": "Who killed Goliath?",
+    "question": "What was the name of the first judge of Israel?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Gideon",
+      "B": "Samson",
+      "C": "Othniel",
+      "D": "Deborah"
     },
     "answer": "C"
   },
   {
     "id": 91,
-    "question": "Who betrayed Jesus?",
+    "question": "Which book of the Bible contains the story of a man who lost his family, health, and wealth but remained faithful to God?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 92,
-    "question": "Where was Jesus born?",
-    "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Psalms",
+      "B": "Proverbs",
+      "C": "Job",
+      "D": "Ecclesiastes"
     },
     "answer": "C"
   },
   {
-    "id": 93,
-    "question": "What did God create on the first day?",
+    "id": 92,
+    "question": "Who was the prophet who had his head cut off at the request of Herod's stepdaughter?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 94,
-    "question": "Who was thrown into the lion's den?",
-    "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Elijah",
+      "B": "John the Baptist",
+      "C": "Jeremiah",
+      "D": "Isaiah"
     },
     "answer": "B"
   },
   {
-    "id": 95,
-    "question": "How many disciples did Jesus have?",
+    "id": 93,
+    "question": "What was the name of the Roman soldier who was converted after hearing the Gospel from Philip?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Cornelius",
+      "B": "The Ethiopian eunuch",
+      "C": "Felix",
+      "D": "Sergius Paulus"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 94,
+    "question": "Which disciple was a fisherman and became one of Jesus' closest followers?",
+    "options": {
+      "A": "Matthew",
+      "B": "Philip",
+      "C": "Peter",
+      "D": "Thomas"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 95,
+    "question": "Which of the following was NOT one of the gifts given to Jesus by the Wise Men?",
+    "options": {
+      "A": "Frankincense",
+      "B": "Gold",
+      "C": "Silver",
+      "D": "Myrrh"
     },
     "answer": "C"
   },
   {
     "id": 96,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of the city where the tower was built to reach heaven?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Ur",
+      "B": "Babylon",
+      "C": "Sodom",
+      "D": "Jerusalem"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 97,
-    "question": "Who killed Goliath?",
+    "question": "Who was the mother of Samuel?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Hannah",
+      "B": "Ruth",
+      "C": "Naomi",
+      "D": "Leah"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 98,
-    "question": "Who was the first man created by God?",
+    "question": "What was the name of the man who led the Israelites into the Promised Land?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
+      "A": "Moses",
+      "B": "Joshua",
+      "C": "Caleb",
+      "D": "Aaron"
     },
     "answer": "B"
   },
   {
     "id": 99,
-    "question": "Where was Jesus born?",
+    "question": "How many books are in the Bible in total (Protestant canon)?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "39",
+      "B": "27",
+      "C": "66",
+      "D": "73"
     },
     "answer": "C"
   },
   {
     "id": 100,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the city where Saul of Tarsus was converted?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Antioch",
+      "B": "Damascus",
+      "C": "Jerusalem",
+      "D": "Tarsus"
     },
     "answer": "B"
   },
   {
     "id": 101,
-    "question": "Where was Jesus born?",
+    "question": "What was the name of the tax collector Jesus called to follow him?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Zacchaeus",
+      "B": "Nicodemus",
+      "C": "Matthew",
+      "D": "Bartholomew"
     },
     "answer": "C"
   },
   {
     "id": 102,
-    "question": "What did God create on the first day?",
+    "question": "How many days and nights did Jesus fast in the wilderness?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 103,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "30 days and 30 nights",
+      "B": "40 days and 40 nights",
+      "C": "7 days and 7 nights",
+      "D": "20 days and 20 nights"
     },
     "answer": "B"
   },
   {
-    "id": 104,
-    "question": "Where was Jesus born?",
+    "id": 103,
+    "question": "Who was the father of John the Baptist?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Abraham",
+      "B": "Joseph",
+      "C": "Zechariah",
+      "D": "Canaan"
     },
     "answer": "C"
+  },
+  {
+    "id": 104,
+    "question": "What was the name of the city where the disciples were first called Christians?",
+    "options": {
+      "A": "Jerusalem",
+      "B": "Antioch",
+      "C": "Rome",
+      "D": "Corinth"
+    },
+    "answer": "B"
   },
   {
     "id": 105,
-    "question": "Where was Jesus born?",
+    "question": "What did Jesus turn water into at the wedding in Cana?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Wine",
+      "B": "Juice",
+      "C": "Milk",
+      "D": "Oil"
     },
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": 106,
-    "question": "Who killed Goliath?",
+    "question": "What was the name of the man who was healed of blindness after Jesus spit on the ground and made mud?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Lazarus",
+      "B": "Bartimaeus",
+      "C": "The man born blind",
+      "D": "Nicodemus"
     },
     "answer": "C"
   },
   {
     "id": 107,
-    "question": "What is the first book of the Bible?",
+    "question": "Which of the following was NOT one of the 12 disciples?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Peter",
+      "B": "Paul",
+      "C": "Matthew",
+      "D": "Thomas"
     },
     "answer": "B"
   },
   {
     "id": 108,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Who was the king of Babylon who had a dream interpreted by Daniel?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Belshazzar",
+      "B": "Darius",
+      "C": "Cyrus",
+      "D": "Nebuchadnezzar"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 109,
+    "question": "What was the name of the man who was raised from the dead by Jesus?",
+    "options": {
+      "A": "Lazarus",
+      "B": "Bartimaeus",
+      "C": "Zacchaeus",
+      "D": "Nicodemus"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 110,
+    "question": "Which prophet was taken to heaven in a fiery chariot?",
+    "options": {
+      "A": "Elisha",
+      "B": "Isaiah",
+      "C": "Elijah",
+      "D": "Jeremiah"
     },
     "answer": "C"
   },
   {
-    "id": 109,
-    "question": "Who was thrown into the lion's den?",
-    "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 110,
-    "question": "Who was the first man created by God?",
-    "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
-    },
-    "answer": "B"
-  },
-  {
     "id": 111,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Which book of the Bible contains the story of a man who was swallowed by a great fish?",
     "options": {
       "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "B": "Judges",
+      "C": "Jonah",
+      "D": "Ruth"
     },
     "answer": "C"
   },
   {
     "id": 112,
-    "question": "How many disciples did Jesus have?",
+    "question": "Who was the first king of Israel?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "David",
+      "B": "Saul",
+      "C": "Solomon",
+      "D": "Hezekiah"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 113,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the mountain where Jesus gave the Sermon on the Mount?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Mount Zion",
+      "B": "Mount of Olives",
+      "C": "Mount Sinai",
+      "D": "A mountain in Galilee"
     },
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": 114,
-    "question": "Who killed Goliath?",
+    "question": "Who was the Roman governor who presided over Jesus' trial?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 115,
-    "question": "Who betrayed Jesus?",
-    "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Herod",
+      "B": "Pontius Pilate",
+      "C": "Caesar",
+      "D": "Felix"
     },
     "answer": "B"
   },
   {
-    "id": 116,
-    "question": "Who led the Israelites out of Egypt?",
+    "id": 115,
+    "question": "Which disciple was known as 'the disciple whom Jesus loved'?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Peter",
+      "B": "James",
+      "C": "John",
+      "D": "Andrew"
     },
     "answer": "C"
   },
   {
-    "id": 117,
-    "question": "What did God create on the first day?",
+    "id": 116,
+    "question": "Who was the man who carried Jesus' cross for Him?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Simon Peter",
+      "B": "Simon of Cyrene",
+      "C": "Joseph of Arimathea",
+      "D": "Nicodemus"
     },
-    "answer": "A"
+    "answer": "B"
+  },
+  {
+    "id": 117,
+    "question": "What was the name of the place where Jesus was crucified?",
+    "options": {
+      "A": "Mount Sinai",
+      "B": "Mount of Olives",
+      "C": "Calvary/Golgotha",
+      "D": "Jerusalem"
+    },
+    "answer": "C"
   },
   {
     "id": 118,
-    "question": "Who killed Goliath?",
+    "question": "Who was the first Christian martyr?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Peter",
+      "B": "Paul",
+      "C": "Stephen",
+      "D": "James"
     },
     "answer": "C"
   },
   {
     "id": 119,
-    "question": "Where was Jesus born?",
+    "question": "Which book of the Bible contains the story of a man who was swallowed by a great fish?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Joshua",
+      "B": "Judges",
+      "C": "Jonah",
+      "D": "Ruth"
     },
     "answer": "C"
   },
   {
     "id": 120,
-    "question": "What did God create on the first day?",
+    "question": "Who was the man who was raised from the dead by Jesus?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Lazarus",
+      "B": "Bartimaeus",
+      "C": "Zacchaeus",
+      "D": "Nicodemus"
     },
     "answer": "A"
   },
   {
     "id": 121,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Which of the following was NOT one of the gifts given to Jesus by the Wise Men?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Frankincense",
+      "B": "Gold",
+      "C": "Silver",
+      "D": "Myrrh"
     },
     "answer": "C"
   },
   {
     "id": 122,
-    "question": "What is the first book of the Bible?",
+    "question": "What was the name of the city where the disciples were first called Christians?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Jerusalem",
+      "B": "Antioch",
+      "C": "Rome",
+      "D": "Corinth"
     },
     "answer": "B"
   },
   {
     "id": 123,
-    "question": "Who killed Goliath?",
+    "question": "How many books are in the Old Testament?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 124,
-    "question": "What did God create on the first day?",
-    "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "39",
+      "B": "27",
+      "C": "66",
+      "D": "12"
     },
     "answer": "A"
   },
   {
-    "id": 125,
-    "question": "What is the first book of the Bible?",
+    "id": 124,
+    "question": "Who was the king of Judah who was healed of his sickness and had his life extended by 15 years?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "David",
+      "B": "Solomon",
+      "C": "Hezekiah",
+      "D": "Josiah"
     },
-    "answer": "B"
+    "answer": "C"
+  },
+  {
+    "id": 125,
+    "question": "Which book of the Bible contains the story of a talking donkey?",
+    "options": {
+      "A": "Genesis",
+      "B": "Exodus",
+      "C": "Numbers",
+      "D": "Joshua"
+    },
+    "answer": "C"
   },
   {
     "id": 126,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of the man who was healed of blindness by Jesus after washing in the Pool of Siloam?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Lazarus",
+      "B": "Bartimaeus",
+      "C": "The man born blind",
+      "D": "Nicodemus"
     },
     "answer": "C"
   },
   {
     "id": 127,
-    "question": "What is the first book of the Bible?",
+    "question": "Which of the following was NOT a son of Noah?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Shem",
+      "B": "Ham",
+      "C": "Japheth",
+      "D": "Cain"
     },
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": 128,
-    "question": "Who was the first man created by God?",
+    "question": "What was the name of the woman who killed Sisera with a tent peg?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
+      "A": "Deborah",
+      "B": "Jael",
+      "C": "Esther",
+      "D": "Abigail"
     },
     "answer": "B"
   },
   {
     "id": 129,
-    "question": "Who built the ark?",
+    "question": "Who was the mother of John the Baptist?",
     "options": {
-      "A": "Moses",
-      "B": "David",
-      "C": "Noah",
-      "D": "Solomon"
+      "A": "Mary",
+      "B": "Elizabeth",
+      "C": "Hannah",
+      "D": "Rachel"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 130,
-    "question": "How many disciples did Jesus have?",
+    "question": "Who was the wife of Abraham?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Hagar",
+      "B": "Rebekah",
+      "C": "Sarah",
+      "D": "Leah"
     },
     "answer": "C"
   },
   {
     "id": 131,
-    "question": "Where was Jesus born?",
+    "question": "What was the name of Isaac's wife?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Sarah",
+      "B": "Leah",
+      "C": "Rachel",
+      "D": "Rebekah"
     },
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": 132,
-    "question": "Who betrayed Jesus?",
+    "question": "Which prophet was taken to heaven in a whirlwind?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Elijah",
+      "B": "Elisha",
+      "C": "Isaiah",
+      "D": "Jeremiah"
     },
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 133,
-    "question": "How many disciples did Jesus have?",
+    "question": "Who was the Roman governor who presided over Jesus' trial?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Herod",
+      "B": "Caesar",
+      "C": "Pontius Pilate",
+      "D": "Felix"
     },
     "answer": "C"
   },
   {
     "id": 134,
-    "question": "What is the first book of the Bible?",
+    "question": "What did Jesus say was the greatest commandment?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 135,
-    "question": "Who was the first man created by God?",
-    "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 136,
-    "question": "Where was Jesus born?",
-    "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Honor your father and mother",
+      "B": "Do not murder",
+      "C": "Love the Lord your God with all your heart",
+      "D": "Remember the Sabbath day"
     },
     "answer": "C"
   },
   {
-    "id": 137,
-    "question": "Who was the first man created by God?",
+    "id": 135,
+    "question": "Which disciple was a tax collector?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
+      "A": "Peter",
+      "B": "James",
+      "C": "John",
+      "D": "Matthew"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 136,
+    "question": "What was the name of the first woman created by God?",
+    "options": {
+      "A": "Sarah",
+      "B": "Eve",
+      "C": "Mary",
+      "D": "Leah"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 137,
+    "question": "Who was the father of John the Baptist?",
+    "options": {
+      "A": "Joseph",
+      "B": "Zechariah",
+      "C": "Abraham",
+      "D": "Canaan"
     },
     "answer": "B"
   },
   {
     "id": 138,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "What did Jesus feed the 5,000 with?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Manna and quail",
+      "B": "Fish and bread",
+      "C": "Five loaves and two fish",
+      "D": "Seven loaves and a few fish"
     },
     "answer": "C"
   },
   {
     "id": 139,
-    "question": "Who was the first man created by God?",
+    "question": "What was the name of the mountain where Moses received the Ten Commandments?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
+      "A": "Mount Zion",
+      "B": "Mount of Olives",
+      "C": "Mount Sinai",
+      "D": "Mount Carmel"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 140,
-    "question": "Where was Jesus born?",
+    "question": "What was the first plague God sent upon Egypt?",
     "options": {
-      "A": "Nazareth",
-      "B": "Jerusalem",
-      "C": "Bethlehem",
-      "D": "Galilee"
+      "A": "Flies",
+      "B": "Locusts",
+      "C": "Water turned to blood",
+      "D": "Death of the firstborn"
     },
     "answer": "C"
   },
   {
     "id": 141,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the king of Israel who built the first temple in Jerusalem?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "David",
+      "B": "Saul",
+      "C": "Solomon",
+      "D": "Hezekiah"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 142,
-    "question": "What did God create on the first day?",
+    "question": "Which prophet was a shepherd before being called by God?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Amos",
+      "B": "Isaiah",
+      "C": "Ezekiel",
+      "D": "Hosea"
     },
     "answer": "A"
   },
   {
     "id": 143,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "What did Esau sell to Jacob for a pot of lentil stew?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "His livestock",
+      "B": "His blessing",
+      "C": "His birthright",
+      "D": "His tent"
     },
     "answer": "C"
   },
   {
     "id": 144,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "What was the name of the city with walls that fell after the Israelites marched around it?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 145,
-    "question": "How many disciples did Jesus have?",
-    "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
-    },
-    "answer": "C"
-  },
-  {
-    "id": 146,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 147,
-    "question": "What did God create on the first day?",
-    "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Jericho",
+      "B": "Babylon",
+      "C": "Jerusalem",
+      "D": "Samaria"
     },
     "answer": "A"
   },
   {
-    "id": 148,
-    "question": "Who betrayed Jesus?",
+    "id": 145,
+    "question": "What was the name of the king of Babylon who saw the writing on the wall?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Nebuchadnezzar",
+      "B": "Belshazzar",
+      "C": "Cyrus",
+      "D": "Darius"
     },
     "answer": "B"
   },
   {
-    "id": 149,
-    "question": "How many disciples did Jesus have?",
+    "id": 146,
+    "question": "What was the name of the woman who hosted the spies in Jericho?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Ruth",
+      "B": "Esther",
+      "C": "Jezebel",
+      "D": "Rahab"
     },
-    "answer": "C"
+    "answer": "D"
+  },
+  {
+    "id": 147,
+    "question": "What was the name of the garden where Jesus prayed before his crucifixion?",
+    "options": {
+      "A": "Garden of Eden",
+      "B": "Garden of Gethsemane",
+      "C": "Mount of Olives",
+      "D": "Garden of Bethany"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 148,
+    "question": "Who was the Roman centurion who's servant Jesus healed without being present?",
+    "options": {
+      "A": "Cornelius",
+      "B": "Longinus",
+      "C": "Caiaphas",
+      "D": "Pilate"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 149,
+    "question": "What was the name of the prophet who anointed David as king?",
+    "options": {
+      "A": "Samuel",
+      "B": "Nathan",
+      "C": "Elijah",
+      "D": "Isaiah"
+    },
+    "answer": "A"
   },
   {
     "id": 150,
-    "question": "Who built the ark?",
+    "question": "Which of Jesus' parables tells the story of a man who left home and squandered his inheritance?",
     "options": {
-      "A": "Moses",
-      "B": "David",
-      "C": "Noah",
-      "D": "Solomon"
+      "A": "The Good Samaritan",
+      "B": "The Prodigal Son",
+      "C": "The Sower",
+      "D": "The Lost Sheep"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 151,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the high priest who questioned Jesus before His crucifixion?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Annas",
+      "B": "Caiaphas",
+      "C": "Pharisee",
+      "D": "Herod"
     },
     "answer": "B"
   },
   {
     "id": 152,
-    "question": "Who was the first man created by God?",
+    "question": "What was the name of the woman who anointed Jesus' feet with expensive perfume?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 153,
-    "question": "How many disciples did Jesus have?",
-    "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Mary Magdalene",
+      "B": "Martha",
+      "C": "Mary of Bethany",
+      "D": "Salome"
     },
     "answer": "C"
   },
   {
-    "id": 154,
-    "question": "How many disciples did Jesus have?",
+    "id": 153,
+    "question": "What did Jesus say to the paralyzed man he healed?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Pick up your bed and walk",
+      "B": "Your sins are forgiven",
+      "C": "Follow me",
+      "D": "Be healed"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 154,
+    "question": "Who was the prophet who challenged the prophets of Baal on Mount Carmel?",
+    "options": {
+      "A": "Elisha",
+      "B": "Isaiah",
+      "C": "Elijah",
+      "D": "Jeremiah"
     },
     "answer": "C"
   },
   {
     "id": 155,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the place where Jesus was crucified?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Mount Sinai",
+      "B": "Calvary/Golgotha",
+      "C": "Mount of Olives",
+      "D": "Jerusalem"
     },
     "answer": "B"
   },
   {
     "id": 156,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of the Roman centurion who declared, 'Surely this man was the Son of God!' after the crucifixion?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Cornelius",
+      "B": "Claudius",
+      "C": "Longinus",
+      "D": "Caiaphas"
     },
     "answer": "C"
   },
   {
     "id": 157,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of the person who buried Jesus' body in his own new tomb?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Nicodemus",
+      "B": "Joseph of Arimathea",
+      "C": "Simon of Cyrene",
+      "D": "Lazarus"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 158,
-    "question": "What did God create on the first day?",
+    "question": "Which book of the Bible contains the 'Sermon on the Mount'?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 159,
-    "question": "Who led the Israelites out of Egypt?",
-    "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Mark",
+      "B": "Luke",
+      "C": "Matthew",
+      "D": "John"
     },
     "answer": "C"
   },
   {
-    "id": 160,
-    "question": "How many disciples did Jesus have?",
+    "id": 159,
+    "question": "What was the name of the brother of Moses?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Joshua",
+      "B": "Aaron",
+      "C": "Caleb",
+      "D": "Miriam"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 160,
+    "question": "What did John the Baptist eat in the wilderness?",
+    "options": {
+      "A": "Fish and bread",
+      "B": "Lentils and grain",
+      "C": "Locusts and wild honey",
+      "D": "Dates and water"
     },
     "answer": "C"
   },
   {
     "id": 161,
-    "question": "What did God create on the first day?",
+    "question": "What was the first sin committed by Adam and Eve?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 162,
-    "question": "Who built the ark?",
-    "options": {
-      "A": "Moses",
-      "B": "David",
-      "C": "Noah",
-      "D": "Solomon"
+      "A": "Stealing fruit",
+      "B": "Lying to God",
+      "C": "Disobedience",
+      "D": "Hiding from God"
     },
     "answer": "C"
   },
   {
-    "id": 163,
-    "question": "What did God create on the first day?",
+    "id": 162,
+    "question": "What was the name of the wife of Isaac?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Sarah",
+      "B": "Rebekah",
+      "C": "Rachel",
+      "D": "Leah"
     },
-    "answer": "A"
+    "answer": "B"
+  },
+  {
+    "id": 163,
+    "question": "Who was the son of Abraham and Sarah?",
+    "options": {
+      "A": "Ishmael",
+      "B": "Jacob",
+      "C": "Isaac",
+      "D": "Joseph"
+    },
+    "answer": "C"
   },
   {
     "id": 164,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "How many sons did Jacob have?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "10",
+      "B": "11",
+      "C": "12",
+      "D": "13"
     },
     "answer": "C"
   },
   {
     "id": 165,
-    "question": "What is the first book of the Bible?",
+    "question": "Which of Jacob's sons was sold into slavery by his brothers?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Reuben",
+      "B": "Judah",
+      "C": "Joseph",
+      "D": "Benjamin"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 166,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the city from which Paul was from?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Damascus",
+      "B": "Tarsus",
+      "C": "Antioch",
+      "D": "Jerusalem"
     },
     "answer": "B"
   },
   {
     "id": 167,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Which book of the Bible contains the story of Joseph and his coat of many colors?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Exodus",
+      "B": "Genesis",
+      "C": "Numbers",
+      "D": "Leviticus"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 168,
-    "question": "Who betrayed Jesus?",
+    "question": "What was the name of the baby boy that Moses' sister saved from the Nile River?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Aaron",
+      "B": "Moses",
+      "C": "Joseph",
+      "D": "Joshua"
     },
     "answer": "B"
   },
   {
     "id": 169,
-    "question": "How many disciples did Jesus have?",
+    "question": "How many plagues did God send upon Egypt before Pharaoh let the Israelites go?",
     "options": {
-      "A": "10",
-      "B": "11",
+      "A": "7",
+      "B": "10",
       "C": "12",
-      "D": "13"
+      "D": "40"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 170,
-    "question": "Who betrayed Jesus?",
+    "question": "Who was the man who saw a burning bush that was not consumed by fire?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Abraham",
+      "B": "Moses",
+      "C": "Elijah",
+      "D": "Joshua"
     },
     "answer": "B"
   },
   {
     "id": 171,
-    "question": "Who killed Goliath?",
+    "question": "What was the name of the prostitute who helped the Israelite spies in Jericho?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Ruth",
+      "B": "Jezebel",
+      "C": "Rahab",
+      "D": "Esther"
     },
     "answer": "C"
   },
   {
     "id": 172,
-    "question": "Who was thrown into the lion's den?",
+    "question": "What was the name of the first judge of Israel?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Gideon",
+      "B": "Samson",
+      "C": "Othniel",
+      "D": "Deborah"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 173,
-    "question": "Who built the ark?",
+    "question": "Which book of the Bible contains the story of a man who lost his family, health, and wealth but remained faithful to God?",
     "options": {
-      "A": "Moses",
-      "B": "David",
-      "C": "Noah",
-      "D": "Solomon"
+      "A": "Psalms",
+      "B": "Proverbs",
+      "C": "Job",
+      "D": "Ecclesiastes"
     },
     "answer": "C"
   },
   {
     "id": 174,
-    "question": "Who betrayed Jesus?",
+    "question": "Who was the prophet who had his head cut off at the request of Herod's stepdaughter?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Elijah",
+      "B": "John the Baptist",
+      "C": "Jeremiah",
+      "D": "Isaiah"
     },
     "answer": "B"
   },
   {
     "id": 175,
-    "question": "Who killed Goliath?",
+    "question": "What was the name of the Roman soldier who was converted after hearing the Gospel from Philip?",
     "options": {
-      "A": "Samson",
-      "B": "Saul",
-      "C": "David",
-      "D": "Jonathan"
+      "A": "Cornelius",
+      "B": "The Ethiopian eunuch",
+      "C": "Felix",
+      "D": "Sergius Paulus"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 176,
-    "question": "How many disciples did Jesus have?",
+    "question": "Which disciple was a fisherman and became one of Jesus' closest followers?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Matthew",
+      "B": "Philip",
+      "C": "Peter",
+      "D": "Thomas"
     },
     "answer": "C"
   },
   {
     "id": 177,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Which of the following was NOT one of the gifts given to Jesus by the Wise Men?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Frankincense",
+      "B": "Gold",
+      "C": "Silver",
+      "D": "Myrrh"
     },
     "answer": "C"
   },
   {
     "id": 178,
-    "question": "Who was the first man created by God?",
+    "question": "What was the name of the city where the tower was built to reach heaven?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
+      "A": "Ur",
+      "B": "Babylon",
+      "C": "Sodom",
+      "D": "Jerusalem"
     },
     "answer": "B"
   },
   {
     "id": 179,
-    "question": "Who betrayed Jesus?",
+    "question": "Who was the mother of Samuel?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
+      "A": "Hannah",
+      "B": "Ruth",
+      "C": "Naomi",
+      "D": "Leah"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 180,
+    "question": "What was the name of the man who led the Israelites into the Promised Land?",
+    "options": {
+      "A": "Moses",
+      "B": "Joshua",
+      "C": "Caleb",
+      "D": "Aaron"
     },
     "answer": "B"
   },
   {
-    "id": 180,
-    "question": "Who built the ark?",
+    "id": 181,
+    "question": "How many books are in the Bible in total (Protestant canon)?",
     "options": {
-      "A": "Moses",
-      "B": "David",
-      "C": "Noah",
-      "D": "Solomon"
+      "A": "39",
+      "B": "27",
+      "C": "66",
+      "D": "73"
     },
     "answer": "C"
   },
   {
-    "id": 181,
-    "question": "Who betrayed Jesus?",
-    "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
-    },
-    "answer": "B"
-  },
-  {
     "id": 182,
-    "question": "What is the first book of the Bible?",
+    "question": "What was the name of the city where Saul of Tarsus was converted?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Antioch",
+      "B": "Damascus",
+      "C": "Jerusalem",
+      "D": "Tarsus"
     },
     "answer": "B"
   },
   {
     "id": 183,
-    "question": "Who was thrown into the lion's den?",
+    "question": "What was the name of the tax collector Jesus called to follow him?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Zacchaeus",
+      "B": "Nicodemus",
+      "C": "Matthew",
+      "D": "Bartholomew"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 184,
-    "question": "How many disciples did Jesus have?",
+    "question": "How many days and nights did Jesus fast in the wilderness?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "30 days and 30 nights",
+      "B": "40 days and 40 nights",
+      "C": "7 days and 7 nights",
+      "D": "20 days and 20 nights"
     },
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 185,
-    "question": "Who betrayed Jesus?",
+    "question": "Who was the father of John the Baptist?",
     "options": {
-      "A": "Peter",
-      "B": "Judas",
-      "C": "Thomas",
-      "D": "John"
-    },
-    "answer": "B"
-  },
-  {
-    "id": 186,
-    "question": "Who built the ark?",
-    "options": {
-      "A": "Moses",
-      "B": "David",
-      "C": "Noah",
-      "D": "Solomon"
+      "A": "Abraham",
+      "B": "Joseph",
+      "C": "Zechariah",
+      "D": "Canaan"
     },
     "answer": "C"
   },
   {
-    "id": 187,
-    "question": "What is the first book of the Bible?",
+    "id": 186,
+    "question": "What was the name of the city where the disciples were first called Christians?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Jerusalem",
+      "B": "Antioch",
+      "C": "Rome",
+      "D": "Corinth"
     },
     "answer": "B"
   },
   {
-    "id": 188,
-    "question": "How many disciples did Jesus have?",
+    "id": 187,
+    "question": "What did Jesus turn water into at the wedding in Cana?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Wine",
+      "B": "Juice",
+      "C": "Milk",
+      "D": "Oil"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 188,
+    "question": "What was the name of the man who was healed of blindness after Jesus spit on the ground and made mud?",
+    "options": {
+      "A": "Lazarus",
+      "B": "Bartimaeus",
+      "C": "The man born blind",
+      "D": "Nicodemus"
     },
     "answer": "C"
   },
   {
     "id": 189,
-    "question": "What did God create on the first day?",
+    "question": "Which of the following was NOT one of the 12 disciples?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
-    },
-    "answer": "A"
-  },
-  {
-    "id": 190,
-    "question": "What is the first book of the Bible?",
-    "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Peter",
+      "B": "Paul",
+      "C": "Matthew",
+      "D": "Thomas"
     },
     "answer": "B"
   },
   {
-    "id": 191,
-    "question": "Who led the Israelites out of Egypt?",
+    "id": 190,
+    "question": "Who was the king of Babylon who had a dream interpreted by Daniel?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Belshazzar",
+      "B": "Darius",
+      "C": "Cyrus",
+      "D": "Nebuchadnezzar"
     },
-    "answer": "C"
+    "answer": "D"
+  },
+  {
+    "id": 191,
+    "question": "What was the name of the man who was raised from the dead by Jesus?",
+    "options": {
+      "A": "Lazarus",
+      "B": "Bartimaeus",
+      "C": "Zacchaeus",
+      "D": "Nicodemus"
+    },
+    "answer": "A"
   },
   {
     "id": 192,
-    "question": "Who led the Israelites out of Egypt?",
+    "question": "Which prophet was taken to heaven in a fiery chariot?",
     "options": {
-      "A": "Joshua",
-      "B": "Aaron",
-      "C": "Moses",
-      "D": "Elijah"
+      "A": "Elisha",
+      "B": "Isaiah",
+      "C": "Elijah",
+      "D": "Jeremiah"
     },
     "answer": "C"
   },
   {
     "id": 193,
-    "question": "Who was thrown into the lion's den?",
+    "question": "Which book of the Bible contains the story of a man who was swallowed by a great fish?",
     "options": {
-      "A": "David",
-      "B": "Daniel",
-      "C": "Elijah",
-      "D": "Paul"
+      "A": "Joshua",
+      "B": "Judges",
+      "C": "Jonah",
+      "D": "Ruth"
     },
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 194,
-    "question": "What is the first book of the Bible?",
+    "question": "Who was the first king of Israel?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "David",
+      "B": "Saul",
+      "C": "Solomon",
+      "D": "Hezekiah"
     },
     "answer": "B"
   },
   {
     "id": 195,
-    "question": "What did God create on the first day?",
+    "question": "What was the name of the mountain where Jesus gave the Sermon on the Mount?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Mount Zion",
+      "B": "Mount of Olives",
+      "C": "Mount Sinai",
+      "D": "A mountain in Galilee"
     },
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": 196,
-    "question": "What did God create on the first day?",
+    "question": "Who was the Roman governor who presided over Jesus' trial?",
     "options": {
-      "A": "Light",
-      "B": "Sky",
-      "C": "Land",
-      "D": "Animals"
+      "A": "Herod",
+      "B": "Pontius Pilate",
+      "C": "Caesar",
+      "D": "Felix"
     },
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 197,
-    "question": "Who built the ark?",
+    "question": "Which disciple was known as 'the disciple whom Jesus loved'?",
     "options": {
-      "A": "Moses",
-      "B": "David",
-      "C": "Noah",
-      "D": "Solomon"
+      "A": "Peter",
+      "B": "James",
+      "C": "John",
+      "D": "Andrew"
     },
     "answer": "C"
   },
   {
     "id": 198,
-    "question": "Who was the first man created by God?",
+    "question": "Who was the man who carried Jesus' cross for Him?",
     "options": {
-      "A": "Abraham",
-      "B": "Adam",
-      "C": "Moses",
-      "D": "Noah"
+      "A": "Simon Peter",
+      "B": "Simon of Cyrene",
+      "C": "Joseph of Arimathea",
+      "D": "Nicodemus"
     },
     "answer": "B"
   },
   {
     "id": 199,
-    "question": "How many disciples did Jesus have?",
+    "question": "What was the name of the place where Jesus was crucified?",
     "options": {
-      "A": "10",
-      "B": "11",
-      "C": "12",
-      "D": "13"
+      "A": "Mount Sinai",
+      "B": "Mount of Olives",
+      "C": "Calvary/Golgotha",
+      "D": "Jerusalem"
     },
     "answer": "C"
   },
   {
     "id": 200,
-    "question": "What is the first book of the Bible?",
+    "question": "Who was the first Christian martyr?",
     "options": {
-      "A": "Exodus",
-      "B": "Genesis",
-      "C": "Leviticus",
-      "D": "Numbers"
+      "A": "Peter",
+      "B": "Paul",
+      "C": "Stephen",
+      "D": "James"
     },
-    "answer": "B"
+    "answer": "C"
   }
 ]

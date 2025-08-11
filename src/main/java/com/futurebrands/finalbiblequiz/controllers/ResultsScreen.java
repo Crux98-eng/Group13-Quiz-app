@@ -10,31 +10,39 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
+import java.io.InputStream;
+
 public class ResultsScreen {
 
     @FXML public ImageView resultsimage;
     @FXML public Button playAgainbtn;
     @FXML private Label finalScore;
-private String path;
+    private String path;
+
     public void setScore(int scores) throws Exception {
-
         finalScore.setText(" " + scores);
-        if(scores<=5){
-            path = "src/main/resources/com/futurebrands/finalbiblequiz/assets/images/zerostars.png";
-        }
-        else if(scores>5 && scores <=8){
-            path = "src/main/resources/com/futurebrands/finalbiblequiz/assets/images/oneStart.png";
-        }else if(scores>8 && scores <=12){
-            path = "src/main/resources/com/futurebrands/finalbiblequiz/assets/images/twoStars.png";
-        }
-        else if(scores>12){
-            path = "src/main/resources/com/futurebrands/finalbiblequiz/assets/images/threeStars.png";
-        }
-        Image image = new Image("file:"+path);
-        resultsimage.setImage(image);
-        //System.out.println("my score " + scores);
 
+        if (scores <= 5) {
+            path = "/com/futurebrands/finalbiblequiz/assets/images/zerostars.png";
+        } else if (scores > 5 && scores <= 8) {
+            path = "/com/futurebrands/finalbiblequiz/assets/images/oneStart.png";
+        } else if (scores > 8 && scores <= 12) {
+            path = "/com/futurebrands/finalbiblequiz/assets/images/twoStars.png";
+        } else if (scores > 12) {
+            path = "/com/futurebrands/finalbiblequiz/assets/images/threeStars.png";
+        }
+
+        // Load image from resources (works inside JAR and in IDE)
+        try (InputStream is = getClass().getResourceAsStream(path)) {
+            if (is == null) {
+                throw new RuntimeException("Image resource not found: " + path);
+            }
+            Image image = new Image(is);
+            resultsimage.setImage(image);
+        }
     }
+
+
     public void handlenextScreen(){
 
             try {

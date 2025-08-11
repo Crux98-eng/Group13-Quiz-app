@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 import java.io.IOException;
+import java.net.URL;
 import java.util.Objects;
 
 public class screenView {
@@ -22,16 +23,17 @@ public class screenView {
     public static void load(Stage stage, String fxmlPath) throws IOException {
         FXMLLoader loader = new FXMLLoader(screenView.class.getResource(fxmlPath));
         Region content = loader.load();
-
+        URL resource = screenView.class.getResource(fxmlPath);
+        if (resource == null) {
+            throw new IOException("FXML file not found: " + fxmlPath);
+        }
         Scene scene = new Scene(content, INIT_WIDTH, INIT_HEIGHT);
-        //scene.getStylesheets().add(
-          //      Objects.requireNonNull(screenView.class.getResource("com/futurebrands/finalbiblequiz/assets/mainStyles.css")).toExternalForm()
-       // );
+
 
         // Make window responsive and resizable
         stage.setMinWidth(MIN_WIDTH);
         stage.setMinHeight(MIN_HEIGHT);
-        stage.setResizable(true);
+        stage.setResizable(false);
         stage.setMaxHeight(INIT_HEIGHT);
         stage.setMaxWidth(INIT_WIDTH);
 
